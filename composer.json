@@ -3,7 +3,14 @@
   "description": "DoltLite for PHP: SQLite with Git-style version control (branch, commit, merge, diff), bound over FFI with the SQLite3-class API shape.",
   "type": "library",
   "license": "Apache-2.0",
-  "keywords": ["doltlite", "dolt", "sqlite", "database", "version-control", "ffi"],
+  "keywords": [
+    "doltlite",
+    "dolt",
+    "sqlite",
+    "database",
+    "version-control",
+    "ffi"
+  ],
   "homepage": "https://github.com/dolthub/doltlite",
   "require": {
     "php": ">=8.1",
@@ -13,6 +20,9 @@
     "psr-4": {
       "Doltlite\\": "src/"
     },
-    "files": ["src/constants.php"]
-  }
+    "files": [
+      "src/constants.php"
+    ]
+  },
+  "version": "0.11.57"
 }
